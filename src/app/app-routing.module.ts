@@ -5,13 +5,18 @@ import { AboutComponent } from './about/about.component';
 import { PrivacyComponent } from './privacy/privacy.component';
 import { TermsComponent } from './terms/terms.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { ModalContainerComponent } from './modal-container/modal-container.component';
+import { ModalContentComponent } from './modal-content/modal-content.component';
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'about', component: AboutComponent },
   { path: 'privacy', component: PrivacyComponent },
   { path: 'terms', component: TermsComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full' },
-  { path: '**', component: PageNotFoundComponent }
+  { path: 'modal-container', component: ModalContainerComponent},
+  { path: 'modal-content', component: ModalContentComponent},
+  { path: '**', component: PageNotFoundComponent },
+  
 ];
 
 @NgModule({
@@ -19,3 +24,4 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+
