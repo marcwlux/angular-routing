@@ -32,4 +32,4 @@ https://www.djamware.com/post/5c50e5f280aca754f7a9d1eb/building-web-app-using-as
 continue at : export class supplier
 
 
-https://medium.com/@izzatnadiri/how-to-pass-data-to-and-receive-from-ng-bootstrap-modals-916f2ad5d66e
+https://medium.com/@izzatnadiri/how-to-pass-data-to-and-receive-from-ng-bootstrap-modals-916f2ad5d66e"# angular-routing-" 
